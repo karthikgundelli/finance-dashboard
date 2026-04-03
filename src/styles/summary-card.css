@@ -1,0 +1,93 @@
+.summary-card {
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease;
+  border-left: 4px solid;
+  animation: slideIn 0.4s ease-out;
+  cursor: pointer;
+}
+
+.summary-card:hover {
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-4px);
+}
+
+.card-primary {
+  border-left-color: var(--primary-color);
+}
+
+.card-success {
+  border-left-color: var(--success-color);
+}
+
+.card-danger {
+  border-left-color: var(--danger-color);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.card-icon {
+  font-size: 24px;
+}
+
+.card-title {
+  font-size: 14px;
+  color: var(--text-light);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.card-amount {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 12px;
+}
+
+.card-trend {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.card-trend.positive {
+  color: var(--success-color);
+}
+
+.card-trend.negative {
+  color: var(--danger-color);
+}
+
+.trend-icon {
+  font-size: 14px;
+}
+
+@media (max-width: 1024px) {
+  .summary-card {
+    padding: 16px;
+  }
+
+  .card-amount {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .summary-card {
+    padding: 16px;
+  }
+
+  .card-amount {
+    font-size: 20px;
+  }
+}
