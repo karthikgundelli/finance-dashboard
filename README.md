@@ -41,6 +41,38 @@ A modern, responsive finance dashboard built with React and plain CSS. Track you
 - **Build Tool**: Create React App
 - **Animations**: CSS Keyframe Animations
 
+--**Project structure**
+- finance-dashboard-ui/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── Header.js
+│   │   ├── Sidebar.js
+│   │   ├── SummaryCard.js
+│   │   ├── BalanceTrendChart.js
+│   │   ├── SpendingBreakdown.js
+│   │   └── TransactionTable.js
+│   ├── pages/
+│   │   ├── Dashboard.js
+│   │   ├── Transactions.js
+│   │   └── Insights.js
+│   ├── styles/
+│   │   ├── global.css
+│   │   ├── app.css
+│   │   ├── header.css
+│   │   ├── sidebar.css
+│   │   ├── summary-card.css
+│   │   ├── dashboard.css
+│   │   ├── chart.css
+│   │   ├── transaction-table.css
+│   │   ├── transactions.css
+│   │   └── insights.css
+│   ├── App.js
+│   └── index.js
+├── package.json
+└── README.md
+
 ## 📦 Installation & Setup
 
 ### Prerequisites
