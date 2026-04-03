@@ -1,12 +1,55 @@
-# React + Vite
+# Finance Dashboard UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive finance dashboard built with React and plain CSS. Track your financial activity with an intuitive interface featuring real-time visualizations, transaction management, and financial insights.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Core Features
+- **📊 Dashboard Overview** - Summary cards showing Total Balance, Income, and Expenses with trend indicators
+- **📈 Balance Trend Visualization** - Line chart showing balance trends over time
+- **🎯 Spending Breakdown** - Pie chart displaying expense distribution by category
+- **📋 Transactions Management** - Complete transaction list with advanced filtering and sorting
+- **💡 Financial Insights** - Key metrics and recommendations based on your financial data
+- **👤 Role-Based UI** - Switch between Viewer (read-only) and Admin (add/edit transactions) roles
 
-## Expanding the ESLint configuration
+### Technical Features
+- ✅ Fully Responsive Design - Works on desktop, tablet, and mobile
+- ✅ Smooth Animations - Engaging transitions and micro-interactions
+- ✅ Pure CSS Styling - No external CSS frameworks, custom animations
+- ✅ State Management - Context API for application-wide state
+- ✅ Mock Data - Pre-populated with realistic financial data
+- ✅ Clean Code - Well-structured, modular React components
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📋 Requirements Met
+
+| Requirement | Status | Details |
+|-----------|--------|---------|
+| Dashboard Overview | ✅ | Summary cards + Balance trend + Spending breakdown |
+| Transactions Section | ✅ | List with filtering, sorting, search capabilities |
+| Role-Based UI | ✅ | Viewer/Admin toggle with conditional rendering |
+| Insights Section | ✅ | Savings rate, top categories, recommendations |
+| State Management | ✅ | Context API with proper data flow |
+| Responsiveness | ✅ | Mobile-first design, tested on all screen sizes |
+| UI/UX | ✅ | Clean design, animations, smooth interactions |
+| Documentation | ✅ | This README + inline code comments |
+
+## 🛠️ Tech Stack
+
+- **Frontend Framework**: React 18
+- **Styling**: Plain CSS with CSS Grid & Flexbox
+- **State Management**: React Context API
+- **Build Tool**: Create React App
+- **Animations**: CSS Keyframe Animations
+
+## 📦 Installation & Setup
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Steps
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/karthikgundelli/finance-dashboard-ui.git
+cd finance-dashboard-ui
